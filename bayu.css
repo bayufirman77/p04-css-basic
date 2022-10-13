@@ -1,0 +1,262 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: comic sans MS;
+    background-color: white;
+}
+
+.container {
+    flex-wrap: wrap;
+}
+
+.box {
+    min-height: 150px;
+    width: 100%;
+}
+
+.img {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    width: 100%;
+}
+
+
+.artikel{
+    padding: 10px 15px;
+    border-radius: 7px;
+}
+
+
+
+        /*-- FORM --*/
+
+
+
+legend {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.grup input[name="no.pendaftaran"] {
+    display: flex inline-flex;
+    float: none;
+    margin-left: 400px;
+}
+
+.grup input[name="nama"] {
+    display: flex inline-flex;
+    float: none;
+    margin-left: 480px;
+}
+
+.grup input[name="TTL.1"] {
+    display: flex inline-flex;
+    float: none;
+    margin-left: 460px;
+}
+
+.grup input[name="TTL2"] {
+    display: flex inline-flex;
+    float: none;
+    margin-left: 415px;
+}
+
+.grup textarea[name="alamat"] {
+    display: flex inline-flex;
+    float: none;
+    margin-left: 360px;
+}
+
+.grup input[name="rt/rw"] {
+    display: flex inline-flex;
+    float: none;
+    margin-left: 454px;
+}
+
+.grup input[name="kota"] {
+    display: flex inline-flex;
+    float: none;
+    margin-left: 485px;
+}
+
+.grup input[name="pos"] {
+    display: flex inline-flex;
+    float: none;
+    margin-left: 455px;
+}
+
+.grup input[name="nama.ortu"] {
+    display: flex inline-flex;
+    float: none;
+    margin-left: 400px;
+}
+
+.grup input[name="asal.sekolah"] {
+    display: flex inline-flex;
+    float: none;
+    margin-left: 430px;
+}
+
+.grup input[name="jurusan.sekolah"] {
+    display: flex inline-flex;
+    float: none;
+    margin-left: 405px;
+}
+
+.grup input[name="nomor.ijazah"] {
+    display: flex inline-flex;
+    float: none;
+    margin-left: 230px;
+}
+
+.grup input[name="tanggal.lulus"] {
+    display: flex inline-flex;
+    float: none;
+    margin-left: 425px;
+}
+
+.grup input[name="nilai.nem"] {
+    display: flex inline-flex;
+    float: none;
+    margin-left: 165px;
+}
+
+
+input[type="radio"] {
+    flex-direction: row;
+    padding: 1px;
+    float: none;
+}
+
+
+        /*a style */
+
+.a-jk {
+    margin-left: 415px;
+    margin-right: 15px;
+}
+
+.a-wk {
+    margin-left: 415px;
+    margin-right: 15px;
+}
+
+.a-uj {
+    margin-left: 413px;
+    margin-right: 15px;
+}
+
+.a-sp {
+    margin-left: 370px;
+    margin-right: 15px;
+}
+
+.a-agama {
+    margin-left: 467px;
+    margin-right: 15px;
+}
+
+.a-st {
+    margin-left: 470px;
+    margin-right: 15px;
+}
+
+.a-kw {
+    margin-left: 393px;
+    margin-right: 15px;
+}
+
+.a-pek {
+    margin-left: 443px;
+    margin-right: 15px;
+}
+
+.a-sspt {
+    margin-left: 280px;
+    margin-right: 15px;
+}
+
+
+        /*table style*/
+.table {
+    position: relative;
+    margin-left: 350px;
+    margin-right: 40px;
+    width: 70%;
+    padding: 100px;
+}
+
+.td-input {
+    margin-top: 0;
+    display: flex inline-flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+}
+th {
+    background-color: blue;
+    color: white;
+}
+
+.table input[type="radio"] {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2px;
+}
+
+.table label {
+    word-spacing: 2px;
+    list-style-type: none;
+    font-size: 12px;
+    float: right;
+    margin-right: 2px;
+}
+
+
+
+.button {
+    width: 100px;
+    margin: 10px auto;
+    size: 45px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.footer {
+    border: 1px;
+    position: relative;
+    float: right;
+    margin-right: 15px;
+}
+
+.li-footer {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
